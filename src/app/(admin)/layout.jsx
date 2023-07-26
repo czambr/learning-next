@@ -9,12 +9,8 @@ export const metadata = {
 const DashboardLayout = ({ children }) => {
     return (
         <>
-            <html lang="es">
-                <body>
-                    <p>DashboradLayout</p>
-                    {children}
-                </body>
-            </html>
+            <p>DashboradLayout</p>
+            {children}
         </>
     );
 };
